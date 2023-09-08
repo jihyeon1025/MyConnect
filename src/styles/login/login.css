@@ -1,0 +1,39 @@
+.leftContainer {
+  width: 50%;
+  background-color: pink;
+  float: left;
+  height: 100vh;
+  display: flex;
+}
+
+.right {
+  width: 50%;
+  background-color: blue;
+  float: left;
+  height: 100vh;
+}
+
+.logo {
+  width: 400px;
+  height: 75px;
+}
+
+.line {
+  border-bottom: 4px solid white;
+  width: 7%;
+  margin-top: 65px;
+  display: inline-table;
+}
+
+.leftContent {
+  font-size: 28px;
+  color: white;
+  font-weight: bolder;
+  margin-top: 65px;
+}
+
+.left {
+  width: 100%;
+  text-align: center;
+  padding-top: 50%;
+}
