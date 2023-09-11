@@ -1,16 +1,22 @@
 .leftContainer {
   width: 50%;
-  background-color: pink;
+  background-color: #003e65;
+  float: left;
+  height: 100vh;
+  display: flex;
+}
+
+.rightContainer {
+  width: 50%;
+  background-color: white;
   float: left;
   height: 100vh;
   display: flex;
 }
 
 .right {
-  width: 50%;
-  background-color: blue;
-  float: left;
-  height: 100vh;
+  width: 100%;
+  padding: 25%;
 }
 
 .logo {
@@ -25,6 +31,14 @@
   display: inline-table;
 }
 
+.line2 {
+  border-bottom: 3px solid black;
+  width: 10%;
+  margin-top: 65px;
+  margin-bottom: 6px;
+  /* display: inline-table; */
+}
+
 .leftContent {
   font-size: 28px;
   color: white;
@@ -35,5 +49,15 @@
 .left {
   width: 100%;
   text-align: center;
-  padding-top: 50%;
+  padding-top: 20%;
+}
+
+.loginName {
+  font-size: 30px;
+  font-weight: bolder;
+  margin-bottom: 40px;
+}
+
+.formStyle {
+  width: 400px;
 }
